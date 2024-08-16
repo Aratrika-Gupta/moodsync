@@ -5,7 +5,7 @@ import { db, collection, addDoc } from '../firebase';
 
 
 
-const genAI = new GoogleGenerativeAI("AIzaSyBUaNy0plK0cDzXMqS7J6D7dPrFs-AHebY");
+const genAI = new GoogleGenerativeAI("YOUR API KEY");
 
 export function StoryGenerator() {
   const [responses, setResponses] = useState({
